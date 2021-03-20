@@ -21,9 +21,11 @@ The simple algorithm uses a loop in which it continuously searches for neighbori
 Note: That "optimal peak" may not be the most optimal of the problem.
 
 ![image](https://user-images.githubusercontent.com/61641601/111863609-3a842700-898f-11eb-89cc-dc708c01cb81.png)
+
 Describe the 8-post problem:
 Given an 8x8 chess board, on which 8 queens are available in any 8 positions with the constraint that each column has at least one queen. For example, as shown below.
 ![image](https://user-images.githubusercontent.com/61641601/111863627-4c65ca00-898f-11eb-8eef-e15be9cd633c.png)
+
 Heuristic function h (x) is defined as the number of queens that can attack each other, directly or indirectly. For example, the upper left state h (x) = 17, the right state has h (x) = 1.
 
 Requirements: With the given state as above of the chess board. Calculate the value of the function h (x) in the cells of the matrix when moving the queens to that position. Know that in any state of the board, queens can be moved vertically from the position where they are standing.
