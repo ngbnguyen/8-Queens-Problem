@@ -1,4 +1,5 @@
 I'm currently a student at Hochiminh University of Science. And this is the requirement of the practice exercise for AI on local search and the 8-Queens problem. This is the source code of my teacher, I just code some few functions.
+
 Local Search (Local Search):
 The search algorithms that we have looked at so far are designed to browse in some system's search space. The system calculates by keeping in a memory or multiple paths and by noting what has been reviewed along the way and which has not. When the target is found, the path to this goal is also the solution to the problem.
 
